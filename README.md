@@ -3,7 +3,8 @@
 
 Зависимости
 
-```pip install flask 
+```
+pip install flask 
 pip install flask-restful 
 pip install flask-sqlalchemy 
 pip install flask-marshmallow 

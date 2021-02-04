@@ -7,9 +7,6 @@ import requests
 from bs4 import BeautifulSoup
 
 from settings import base_dir
-
-
-
 class PathsParse:
 
     default_url = 'Not url'
