@@ -98,8 +98,7 @@ class LinkParse:
             if self.__is_ext_list(ext):
                 continue
             url_ = parse.urljoin(self._base_url, link_)
-            # проверить ссылку на целостность пер тем как упаковывать
-            if not self.__is_valid(url_):
+            if not self.__is_valid(url_): # проверить ссылку на целостность перед тем как упаковывать
                 continue
             self.urls_files.append(url_)
 
